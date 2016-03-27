@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-b1",
   "description": "AutofacSample.Domain Class Library",
   "frameworks": {
@@ -8,5 +8,8 @@
     "postbuild": [
       "%project:Directory%\\..\\artifact-copy.bat %project:BuildOutputDir%\\%build:Configuration%\\%build:TargetFramework%\\*.* %USERPROFILE%\\.nuget\\packages\\AutofacSample\\"
     ]
+  },
+  "dependencies": {
+    "AutofacSample.Abstractions": "1.0.0-*"
   }
 }

@@ -1,4 +1,6 @@
-﻿namespace AutofacSample.Domain
+﻿using AutofacSample.Abstractions;
+
+namespace AutofacSample.Domain
 {
     public class Order : IOrder
     {

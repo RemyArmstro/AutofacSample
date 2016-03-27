@@ -1,4 +1,4 @@
-﻿namespace AutofacSample.Domain
+﻿namespace AutofacSample.Abstractions
 {
     public interface IOrder
     {

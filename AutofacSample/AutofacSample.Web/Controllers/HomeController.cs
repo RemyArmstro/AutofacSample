@@ -1,4 +1,4 @@
-﻿using AutofacSample.Domain;
+﻿using AutofacSample.Abstractions;
 using Microsoft.AspNet.Mvc;
 
 namespace Web2.Controllers
