@@ -1,0 +1,12 @@
+﻿{
+  "version": "1.0.0-b1",
+  "description": "AutofacSample.Domain Class Library",
+  "frameworks": {
+    "net46": { }
+  },
+  "scripts": {
+    "postbuild": [
+      "%project:Directory%\\..\\artifact-copy.bat %project:BuildOutputDir%\\%build:Configuration%\\%build:TargetFramework%\\*.* %USERPROFILE%\\.nuget\\packages\\AutofacSample\\"
+    ]
+  }
+}
